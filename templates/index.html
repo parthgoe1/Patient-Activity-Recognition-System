@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Rehabilitation Monitoring System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/frontend.css') }}">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/g/filesaver.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+
+<body>
+    <div class="header">
+        <h1>Patient Rehabilitation Monitoring System</h1>
+    </div>
+
+    <div class="row">
+
+        <div class="col-3">
+            <div class="frame">
+                <img id="frame-img" src="{{ url_for('static', filename='assets/blackBG.jpg') }}">
+                <div class="loader" id="loader" hidden></div>
+            </div>
+            <div class="block">
+                <div class="grid-container">
+                    <form>
+                        <input type="file" id="file" name="file">
+                        <input type="submit" class="btn">
+                    </form>
+                    <div class="inner-block">
+                        <button id="start-button" onclick="getData()"><img class="buttonImg" src="{{ url_for('static', filename='assets/play-and-pause-button.png') }}"></button>
+                        <button id="stop-button" onclick="pause()"><img class="buttonImg" src="{{ url_for('static', filename='assets/stop.png') }}"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-9">
+            <div id="table-content-div">
+                <h2 id="report_heading">Current Activity</h2>
+                <table id="table-content">
+                    <tr>
+                        <th>Activity</th>
+                        <th id="type-data">Probability</th>
+                    </tr>
+                    <!-- <tr>
+                        <td>Sitting</td>
+                        <td id="sitting-prob">--</td>
+                    </tr>
+                    <tr>
+                        <td>Standing</td>
+                        <td id="standing-prob">--</td>
+                    </tr>
+                    <tr>
+                        <td>Eating</td>
+                        <td id="eating-prob">--</td>
+                    </tr>
+                    <tr>
+                        <td>Sleeping</td>
+                        <td id="sleeping-prob">--</td>
+                    </tr>
+                    <tr>
+                        <td>Falling</td>
+                        <td id="falling-prob">--</td>
+                    </tr>
+                    <tr>
+                        <td>Walking</td>
+                        <td id="walking-prob">--</td>
+                    </tr>
+                    <tr>
+                        <td>Pain</td>
+                        <td id="pain-prob">--</td>
+                    </tr> -->
+                </table>
+            </div>
+            <div class="block" style="padding: 30px;">
+                <button id="download-report" class="buttonDownload" disabled onclick="downloadData()">Download PDF</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/frontend.js') }}"></script>
+</body>
+
+</html>
