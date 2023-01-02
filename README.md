@@ -36,7 +36,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="/Assets/act.png" width="800" height="600">
+<img src="/Assets/act.png" width="800" height="400">
 
 Hospitals and other medical centres have facilities of keeping patients under medical attention to monitor their progress. The nurse carefully monitors the patients and takes necessary action in case of any unusual activity or sense of emergency. However, sometimes patients cannot afford this service as it’s expensive. If we have an automated system in place which tracks patient’s activity and informs concerned authorities to take immediate actions in case of emergency, then many people would be benefitted. This will incur camera installation and setting up of other logistics but would be still cheaper than human monitoring. Also, there are many instances of complications or even deaths in rehab centres because of no or delayed action in case of events like collapse, heart attack or seizures. This can be mitigated by having a 24*7 surveillance in place that recognizes an abnormality in patient’s behaviour and alerts respective authorities. We introduce a novel model in this paper to monitor patient activity using the CNN-LSTM model. <br/>
 For more details, please see [Report](/Report/)
