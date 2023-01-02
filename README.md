@@ -102,6 +102,8 @@ Since it was difficult to get real data of a rehab center and then train the mod
 <img src="/Assets/keypoints.png" width="600" height="400">
 We divide the simulations into frames for keypoint detection model. Further, the output from keypoint models are normal- ized to pass it on to activity detection model.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- CONTRIBUTIONS -->
 ## Contributors
 
