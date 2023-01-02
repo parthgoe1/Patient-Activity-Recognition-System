@@ -53,6 +53,7 @@ For more details, please see [Report](/Report/)
 * [MediaPipe](https://google.github.io/mediapipe/solutions/pose.html)
 * [Mixamo](https://www.mixamo.com/#/)
 * [Unity3D](https://unity.com/)
+* [Flask](https://flask.palletsprojects.com/en/2.2.x/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -82,6 +83,10 @@ For more details, please see [Report](/Report/)
 * Unity
   ```sh
   Follow instructions: https://unity.com/download
+  ```
+* Flask
+  ```sh
+  pip install Flask
   ```
 
 ### Installation
