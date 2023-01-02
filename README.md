@@ -104,8 +104,8 @@ For more details, please see [Report](/Report/)
 Since it was difficult to get real data of a rehab center and then train the model for some specific events, we generated synthetic data using Unity3D. We divided the training data into two broad categories; Activities that are considered normal and those which are abnormal. </br>
 <b>Normal activities:</b>Sitting, Standing, Walking ,Sleeping </br>
 <b>Abnormal activities:</b>Falling, pain/coughing </br>
-<img src="/Assets/keypoints.png" width="600" height="400">
-We divide the simulations into frames for keypoint detection model. Further, the output from keypoint models are normal- ized to pass it on to activity detection model.
+<img src="/Assets/keypoints.png" width="500" height="400">
+We divide the simulations into frames for keypoint detection model. Further, the output from keypoint models are normalized to pass it on to activity detection model.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
