@@ -115,7 +115,7 @@ We divide the simulations into frames for keypoint detection model. Further, the
 1. [Parth Goel](https://github.com/parthgoe1)
 2. [Prashant Kanth](https://github.com/kanthprashant)
 3. [Aditya Bhat](https://github.com/adityacbhat)
-3. [Rishika Bhanushali](https://github.com/rb-rishika)
+4. [Rishika Bhanushali](https://github.com/rb-rishika)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
