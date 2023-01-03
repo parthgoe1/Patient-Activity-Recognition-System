@@ -7,6 +7,8 @@
   <h4 align="center">Patient Activity Recognition System trained with CNN LSTM on Synthetic Data Generated using Unity</h4>
 </div>
 
+Blog: https://medium.com/@parthgoel_22399/patient-monitoring-system-cnn-lstm-model-trained-on-unity-3d-simulated-data-79e52a8163ee
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
